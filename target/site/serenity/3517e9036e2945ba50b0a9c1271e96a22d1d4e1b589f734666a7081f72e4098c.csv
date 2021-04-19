@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"test",": Consultar empleado en Dummy","SUCCESS","2021-04-06T11:53:18.764624-05:00[America/Bogota]","0.0","1.09"
+"test","Escenario Transversal Creación, consulta, Actualización y eliminación del Empleado","SUCCESS","2021-04-06T11:53:22.645939-05:00[America/Bogota]","0.0","3.78"

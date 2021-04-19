@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"test",": Crear empleado en Dummy","FAILURE","2021-04-06T11:53:15.038322-05:00[America/Bogota]","0.0","3.67"
+"test",": Eliminar empleado en Dummy","FAILURE","2021-04-06T11:53:19.863879-05:00[America/Bogota]","0.0","1.87"
+"test",": Actualizar empleado en Dummy","FAILURE","2021-04-06T11:53:21.740111-05:00[America/Bogota]","0.0","0.9"

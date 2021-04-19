@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="test" skipped="0" tests="6" time="11.31" timestamp="2021-04-06 11:53:15"><testcase name=": Crear empleado en Dummy"><failure message="El status code obtenido no corresponde al esperado por intermitencia del servicio - &#10;Expected: &lt;200&gt;&#10;     but: was &lt;429&gt;" type="java.lang.AssertionError">El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;</failure><system-err>El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;
+task.Crear.performAs(Crear.java:37)
+stepdefinitions.GestionEmpleadosDefinitions.crearEmpleado(GestionEmpleadosDefinitions.java:28)
+io.cucumber.java.Invoker.invoke(Invoker.java:27)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+</system-err></testcase><testcase name=": Consultar empleado en Dummy"/><testcase name=": Eliminar empleado en Dummy"><failure message="El status code obtenido no corresponde al esperado por intermitencia del servicio - &#10;Expected: &lt;200&gt;&#10;     but: was &lt;429&gt;" type="java.lang.AssertionError">El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;</failure><system-err>El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;
+task.EliminarEmpleado.performAs(EliminarEmpleado.java:28)
+stepdefinitions.GestionEmpleadosDefinitions.eliminarEmpleado(GestionEmpleadosDefinitions.java:50)
+✽.se elimine el empleado con id 5(file:///Users/carloszuluaga/Documents/Automation/PruebaT-cnicaLulo-main/src/test/resources/features/gestion_empleados.feature:27)
+</system-err></testcase><testcase name=": Actualizar empleado en Dummy"><failure message="El status code obtenido no corresponde al esperado por intermitencia del servicio - &#10;Expected: &lt;200&gt;&#10;     but: was &lt;429&gt;" type="java.lang.AssertionError">El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;</failure><system-err>El status code obtenido no corresponde al esperado por intermitencia del servicio - 
+Expected: &lt;200&gt;
+     but: was &lt;429&gt;
+task.ActualizarEmpleado.performAs(ActualizarEmpleado.java:38)
+stepdefinitions.GestionEmpleadosDefinitions.actualizarEmpleado(GestionEmpleadosDefinitions.java:56)
+io.cucumber.java.Invoker.invoke(Invoker.java:27)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:27)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:64)
+io.cucumber.core.runner.TestStep.run(TestStep.java:49)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:46)
+io.cucumber.core.runner.TestCase.run(TestCase.java:51)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:66)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:83)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:24)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:227)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:54)
+</system-err></testcase><testcase name="Escenario Transversal Creación, consulta, Actualización y eliminación del Empleado"/></testsuite>
